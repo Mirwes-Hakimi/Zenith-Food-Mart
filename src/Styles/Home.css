@@ -1,0 +1,44 @@
+/* .image {
+    width: 100%;
+    height: 70vh;
+    object-fit:fill;
+} */
+
+/* Styles for the Home component */
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 500px; /* Set your desired height */
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Additional styles for the images */
+  .image:nth-child(1) {
+    animation: fadeInOut 0s infinite; /* Add a fade-in/fade-out animation */
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  };
+
+
+  @media (max-width: 768px) {
+    .image {
+      height: 70vh; /* Adjust the height for smaller screens */
+      position: sticky;
+    }
+  }
+
+  

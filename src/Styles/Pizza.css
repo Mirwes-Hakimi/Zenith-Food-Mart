@@ -1,0 +1,64 @@
+/* Styles for the Pizza component */
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px; /* Add a gap between the rows */
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.menu-item {
+  flex-basis: calc(43.33% - -60px); /* 3 items per row with spacing */
+  height: 70%;
+  background-color: #f5f5f5;
+ 
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  list-style: none;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 5px;
+}
+
+h1 {
+  background-color: red;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 50%; /* Adjust the width as needed */
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .menu-item {
+    flex-basis: calc(80% - 10px); /* 2 items per row with spacing on smaller screens */
+    margin: 10px;
+  }
+
+  .menu-item img {
+    width: 100%;
+  }
+}

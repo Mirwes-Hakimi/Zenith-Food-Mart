@@ -1,0 +1,79 @@
+/* CSS for the Contact component */
+
+.social-media {
+    background-color: #304D6D; /* Background color for the section */
+    color: white; /* Text color */
+    padding: 40px 0; /* Padding around the content */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem; /* Adjust the font size for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white; /* Link text color */
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust the font size for the phone number */
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Spacing above the social icons */
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px; /* Spacing below the logo */
+  }
+  
+  .social-logo {
+    text-decoration: none;
+    color: white; /* Logo text color */
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust the font size for the logo */
+  }
+  
+  .website-rights {
+    margin-top: 20px; /* Spacing above the copyright text */
+  }
+  
+  .social-icons {
+    margin-top: 20px; /* Spacing above the social icons */
+  }
+  
+  .social-icon-link {
+    text-decoration: none;
+    margin: 0 10px; /* Spacing between social icons */
+    font-size: 1.5rem; /* Adjust the font size for the icons */
+  }
+  
+  /* Styling for individual social icons */
+  .social-icon-link:hover {
+    color: #FF5733; /* Change color on hover */
+  }
+  
+  /* Add media queries for responsiveness if needed */
+  
+
+  /* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem; /* Adjust the font size for the heading on smaller screens */
+    }
+  
+    a {
+      font-size: 1rem; /* Adjust the font size for the phone number on smaller screens */
+    }
+  
+    .social-logo {
+      font-size: 1.2rem; /* Adjust the font size for the logo on smaller screens */
+    }
+  
+    .social-icon-link {
+      font-size: 1rem; /* Adjust the font size for the icons on smaller screens */
+    }
+  }
