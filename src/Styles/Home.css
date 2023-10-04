@@ -9,13 +9,13 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 500px; /* Set your desired height */
+    height: 550px; /* Set your desired height */
   }
   
   .image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    object-fit:fill; /* Maintain aspect ratio and cover the entire container */
     transition: transform 0.5s ease; /* Add a smooth transition effect */
   }
   
