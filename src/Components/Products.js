@@ -2,6 +2,8 @@ import React from "react";
 import '../Styles/Products.css'
 
 function Products(){
+
+
     return (
         <div>
         <h1 className="product">Products</h1>
@@ -13,9 +15,8 @@ function Products(){
           <li className="prouct-li">
            <h2>Cookies</h2>
             <p>Indulge in our freshly baked cookies, crafted with love and the finest ingredients to satisfy your sweet cravings and brighten your day</p>
-            <img
-            src={process.env.PUBLIC_URL + "/images/cookies.jpg"}
-            alt="cookies Image"/>
+            <img src={process.env.PUBLIC_URL + "/images/cookies.jpg"}
+            alt="cookies Image" />
           </li>
 
           <li className="prouct-li">

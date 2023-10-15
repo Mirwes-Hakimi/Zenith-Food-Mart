@@ -7,6 +7,7 @@ import Pizza from "./Components/Pizza";
 import Products from "./Components/Products";
 import Contact from "./Components/Contact";
 import Direction from "./Components/Direction";
+import './/App.css'
 
 function App() {
   return (

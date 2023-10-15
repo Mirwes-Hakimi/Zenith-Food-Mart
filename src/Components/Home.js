@@ -8,9 +8,9 @@ import Direction from "./Direction";
 
 function Home() {
   const images = [
-    '/images/outside-store.jpg',
-    '/images/Inside-store1.jpg',
-    '/images/inside-store4.jpg'
+    '/images/IMG_8305.jpg',
+    '/images/IMG_8307.jpg',
+    // '/images/Chicken-Wings.jpg'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

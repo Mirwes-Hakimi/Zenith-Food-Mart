@@ -29,7 +29,7 @@ function Contact(){
           </a>
           
         </div>
-        <small className='website-rights'> Web Design by Hakimi © 2023</small>
+        <small className='website-rights'><a style={{fontSize:'0.7rem'}} href="https://www.kblwebsolutions.com/">Web Design by KBL Web Solutions</a> </small>
       </div>
     </section>
     </div>

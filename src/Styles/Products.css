@@ -1,12 +1,5 @@
 /* Styles for the Products component */
-.product {
-    text-align: center;
-    font-size: 28px;
-    color: white;
-    margin-bottom: 20px; /* Add margin to push it away from the product cards */
-    padding-top: 20px; /* Add padding to create space at the top */
-  }
-  
+
   .items {
     list-style: none;
     display: flex;
@@ -15,18 +8,33 @@
     gap: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 35px;
+    background: #304D6D;
   }
   
+  .product{
+    background-color: #1c2237;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
   /* Styles for each product cards */
   .prouct-li {
     flex-basis: calc(33.33% - 20px);
-    background-color: #f5f5f5;
+    background-color: #304D6D;
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
    
-  }
+  };
+
+
   
   h2 {
     font-size: 20px;
@@ -36,7 +44,7 @@
   
   p {
     font-size: 16px;
-    color: #777;
+    color: white;
     margin-top: 10px;
   }
   

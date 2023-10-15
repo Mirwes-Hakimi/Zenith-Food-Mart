@@ -89,7 +89,7 @@ function Navbar() {
      {/* Define navigation links */}
 
       <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-         Zenith Food Mart
+         Zenith Halal Food Mart
       </Link>
     <div className='menu-icon' onClick={handleClick}>
     {click ? <FaTimes /> : <FaBars />}

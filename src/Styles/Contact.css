@@ -5,11 +5,14 @@
     color: white; /* Text color */
     padding: 40px 0; /* Padding around the content */
     text-align: center;
+    height: 100vh;
+    
   }
   
   h1 {
     font-size: 2rem; /* Adjust the font size for the heading */
     margin-bottom: 20px; /* Spacing below the heading */
+    color: white !important;
   }
   
   a {
@@ -39,6 +42,7 @@
   
   .website-rights {
     margin-top: 20px; /* Spacing above the copyright text */
+    font-size: 7px;
   }
   
   .social-icons {
