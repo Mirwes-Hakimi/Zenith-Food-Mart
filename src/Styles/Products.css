@@ -24,7 +24,7 @@
   }
   /* Styles for each product cards */
   .prouct-li {
-    flex-basis: calc(33.33% - 20px);
+    flex-basis: calc(33.33% - 15px);
     background-color: #304D6D;
     color: white;
     padding: 20px;
@@ -74,10 +74,5 @@
     .prouct-li {
       flex-basis: calc(100% - 20px); /* 1 item per row with spacing on smaller screens */
     };
-   
-
-    .product-images {
-      
-    }
     
   }
