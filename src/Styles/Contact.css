@@ -1,83 +1,99 @@
-/* CSS for the Contact component */
+.contact-section {
+  background-color: #304d6d;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-.social-media {
-    background-color: #304D6D; /* Background color for the section */
-    color: white; /* Text color */
-    padding: 40px 0; /* Padding around the content */
-    text-align: center;
-    height: 100vh;
-    
-  }
-  
-  h1 {
-    font-size: 2rem; /* Adjust the font size for the heading */
-    margin-bottom: 20px; /* Spacing below the heading */
-    color: white !important;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white; /* Link text color */
-    font-weight: bold;
-    font-size: 1.2rem; /* Adjust the font size for the phone number */
-  }
-  
-  .social-media-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px; /* Spacing above the social icons */
-  }
-  
-  .footer-logo {
-    margin-bottom: 20px; /* Spacing below the logo */
-  }
-  
-  .social-logo {
-    text-decoration: none;
-    color: white; /* Logo text color */
-    font-weight: bold;
-    font-size: 1.5rem; /* Adjust the font size for the logo */
-  }
-  
-  .website-rights {
-    margin-top: 20px; /* Spacing above the copyright text */
-    font-size: 7px;
-  }
-  
-  .social-icons {
-    margin-top: 20px; /* Spacing above the social icons */
-  }
-  
-  .social-icon-link {
-    text-decoration: none;
-    margin: 0 10px; /* Spacing between social icons */
-    font-size: 1.5rem; /* Adjust the font size for the icons */
-  }
-  
-  /* Styling for individual social icons */
-  .social-icon-link:hover {
-    color: #FF5733; /* Change color on hover */
-  }
-  
-  /* Add media queries for responsiveness if needed */
-  
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
 
-  /* Media query for screens smaller than 768px (adjust as needed) */
+.phone-link a {
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.phone-link a:hover {
+  text-decoration: underline;
+}
+
+.contact-wrap {
+  margin-top: 40px;
+}
+
+.store-name {
+  margin-bottom: 20px;
+}
+
+.store-link {
+  font-size: 1.7rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.social-links {
+  margin: 25px 0;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-icon:hover {
+  color: #ff5733;
+}
+
+.credits {
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
+
+.credits a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
-    h1 {
-      font-size: 1.5rem; /* Adjust the font size for the heading on smaller screens */
-    }
-  
-    a {
-      font-size: 1rem; /* Adjust the font size for the phone number on smaller screens */
-    }
-  
-    .social-logo {
-      font-size: 1.2rem; /* Adjust the font size for the logo on smaller screens */
-    }
-  
-    .social-icon-link {
-      font-size: 1rem; /* Adjust the font size for the icons on smaller screens */
-    }
+  .contact-title {
+    font-size: 2rem;
   }
+
+  .store-link {
+    font-size: 1.3rem;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+  }
+
+  .phone-link a {
+    font-size: 1.1rem;
+  }
+}

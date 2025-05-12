@@ -57,14 +57,6 @@ function Pizza() {
           />
         </li>
 
-        <li className="menu-item">
-          <h2 className="menu-title">Caesar Salad with Halal Chicken</h2>
-          <p className="menu-pragraph">Green salad with Caesar dressing and cheese</p>
-          <img
-            src={process.env.PUBLIC_URL + "/images/Chicken-Caesar-Salad.jpg"}
-            alt="Caesar Salad with Chicken"
-          />
-        </li>
       </ul>
     </div>
   );

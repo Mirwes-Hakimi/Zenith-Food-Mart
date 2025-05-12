@@ -1,64 +1,73 @@
-/* Styles for the Pizza component */
+/* Pizza Section Styles */
 .menu-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2px; /* Add a gap between the rows */
-  padding: 0;
-  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
   background-color: #304D6D;
   color: whitesmoke;
-  
 }
 
-.menu-item {
-  flex-basis: calc(43.33% - -60px); /* 3 items per row with spacing */
-
-  background-color: #304D6D;
-  border-radius: 18px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  list-style: none;
-  justify-self: center;
-  justify-items: center;
-  margin: 0 5px;
-}
-
-h1 {
+/* Section title */
+.menu-title {
   background-color: #1c2237;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu-item img {
-  width: 50%; /* Adjust the width as needed */
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
   margin: 0;
-  padding: 0;
+  font-weight: bold;
 }
 
+/* Each pizza item card */
+.menu-item {
+  background-color: #3a5c7a;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+}
 
-/* Media query for screens smaller than 768px (adjust as needed) */
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Pizza image */
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* Pizza name / description */
+.menu-item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Responsive text */
+.menu-item p {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+/* Responsive layout */
 @media (max-width: 768px) {
   .menu-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    padding: 1rem;
+    gap: 1rem;
   }
+
   .menu-item {
-    flex-basis: calc(80% - 10px); /* 2 items per row with spacing on smaller screens */
-    margin: 10px;
+    padding: 0.8rem;
   }
 
   .menu-item img {
-    width: 100%;
+    height: 160px;
   }
 }
